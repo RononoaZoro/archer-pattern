@@ -1,9 +1,9 @@
 package com.luo.factory.abstr;
 
-import com.luo.factory.Milk;
-import com.luo.factory.bean.MengNiu;
-import com.luo.factory.bean.TeLunSu;
-import com.luo.factory.bean.YiLi;
+        import com.luo.factory.Milk;
+        import com.luo.factory.bean.MengNiu;
+        import com.luo.factory.bean.TeLunSu;
+        import com.luo.factory.bean.YiLi;
 
 /**
  * @author luoxuzheng
