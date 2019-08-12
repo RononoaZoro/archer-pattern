@@ -18,7 +18,7 @@ public class BeanFactory {
     private static Map<String, Object> registerMap = new ConcurrentHashMap<>();
 
     public static Object getBean(String beanName) {
-        synchronized (BeanFactory.class){
+        synchronized (BeanFactory.class){//spring中也是用synchronized实现线程安全的
             if (!registerMap.containsKey(beanName)) {
                 Object obj = null;
                 try {

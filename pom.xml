@@ -11,6 +11,7 @@
   <modules>
     <module>factory</module>
     <module>singleton</module>
+    <module>prototype</module>
   </modules>
 
   <name>Maven</name>
