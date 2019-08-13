@@ -10,6 +10,7 @@
         <module name="prototype" />
         <module name="proxy" />
         <module name="singleton" />
+        <module name="strategy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
