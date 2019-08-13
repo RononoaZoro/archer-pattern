@@ -17,6 +17,7 @@
       <module>template</module>
     <module>delegate</module>
     <module>adapter</module>
+      <module>decorator</module>
   </modules>
 
   <name>Maven</name>
