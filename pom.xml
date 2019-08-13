@@ -16,6 +16,7 @@
       <module>strategy</module>
       <module>template</module>
     <module>delegate</module>
+    <module>adapter</module>
   </modules>
 
   <name>Maven</name>
