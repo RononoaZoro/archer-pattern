@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="factory" />
         <module name="prototype" />
+        <module name="proxy" />
         <module name="singleton" />
       </profile>
     </annotationProcessing>
