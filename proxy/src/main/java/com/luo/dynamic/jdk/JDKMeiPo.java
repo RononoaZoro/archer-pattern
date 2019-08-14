@@ -21,6 +21,7 @@ public class JDKMeiPo implements InvocationHandler {
 
        //以字节码重组的方式来形成一个新的代理类
        Object obj = Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), this);
+       Person person = (Person)obj;
 
        return obj;
    }

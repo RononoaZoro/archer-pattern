@@ -18,6 +18,7 @@
     <module>delegate</module>
     <module>adapter</module>
       <module>decorator</module>
+      <module>observer</module>
   </modules>
 
   <name>Maven</name>

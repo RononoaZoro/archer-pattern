@@ -15,6 +15,7 @@ import java.lang.reflect.Proxy;
 public class JDKProxyTest {
 
     public static void main(String[] args) {
+        //不能转换成Xiaoluoluo
         Person obj = (Person)new JDKMeiPo().getInstance(new Xiaoluoluo());
         System.out.println(obj.getClass());
         obj.findLove();
@@ -32,7 +33,8 @@ public class JDKProxyTest {
 
         //通过反编译工具可以查看源代码
 
-        byte[] bytes = ProxyGenerator.generateProxyClass("$Proxy0", new Class[]{Person.class});
+        byte[] bytes = ProxyGenerator.generateProxyClass("$Proxy0.class",
+                new Class[]{Person.class,obj.getClass()});
         try {
             FileOutputStream fos = new FileOutputStream("E:\\dynamicClass" +
                     "\\$Proxy0.class");
