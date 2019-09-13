@@ -13,6 +13,7 @@
         <module name="observer" />
         <module name="prototype" />
         <module name="proxy" />
+        <module name="responsibility-chain" />
         <module name="singleton" />
         <module name="strategy" />
         <module name="template" />

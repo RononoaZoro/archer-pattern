@@ -19,6 +19,8 @@
     <module>adapter</module>
       <module>decorator</module>
       <module>observer</module>
+      <module>responsibility-chain</module>
+      <module>comprehensive</module>
   </modules>
 
   <name>Maven</name>
