@@ -1,4 +1,4 @@
-package com.luo.hasA.inter;
+package com.luo.strategy.inter;
 
 /**
  * @author luoxuzheng

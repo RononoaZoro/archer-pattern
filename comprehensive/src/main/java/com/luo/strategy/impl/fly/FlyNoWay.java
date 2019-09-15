@@ -1,6 +1,6 @@
-package com.luo.hasA.impl.fly;
+package com.luo.strategy.impl.fly;
 
-import com.luo.hasA.inter.FlyBehavior;
+import com.luo.strategy.inter.FlyBehavior;
 
 /**
  * @author luoxuzheng

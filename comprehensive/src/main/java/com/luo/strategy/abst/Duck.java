@@ -1,7 +1,7 @@
-package com.luo.hasA.abst;
+package com.luo.strategy.abst;
 
-import com.luo.hasA.inter.FlyBehavior;
-import com.luo.hasA.inter.QuackBehavior;
+import com.luo.strategy.inter.FlyBehavior;
+import com.luo.strategy.inter.QuackBehavior;
 
 /**
  * @author luoxuzheng

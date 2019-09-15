@@ -1,7 +1,7 @@
-package com.luo.hasA;
+package com.luo.strategy;
 
-import com.luo.hasA.abst.Duck;
-import com.luo.hasA.impl.fly.FlyWithWings;
+import com.luo.strategy.abst.Duck;
+import com.luo.strategy.impl.fly.FlyWithWings;
 
 /**
  * Hello world!

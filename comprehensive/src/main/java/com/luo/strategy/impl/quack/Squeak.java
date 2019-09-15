@@ -1,6 +1,6 @@
-package com.luo.hasA.impl.quack;
+package com.luo.strategy.impl.quack;
 
-import com.luo.hasA.inter.QuackBehavior;
+import com.luo.strategy.inter.QuackBehavior;
 
 /**
  * @author luoxuzheng
