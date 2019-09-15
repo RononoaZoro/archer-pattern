@@ -1,10 +1,8 @@
-package com.luo.observer.inter;
+package com.luo.observer.weather;
 
 /**
- * 布告板展示数据
- *
  * @author luoxuzheng
- * @create 2019-09-13 21:10
+ * @create 2019-09-15 20:20
  **/
 public interface DisplayElement {
 
