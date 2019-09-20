@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="adapter" />
         <module name="comprehensive" />
+        <module name="comprehensive-duck-application" />
         <module name="decorator" />
         <module name="delegate" />
         <module name="factory" />
