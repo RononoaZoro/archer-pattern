@@ -1,8 +1,6 @@
 package com.luo.dynamic.gpproxy;
 
-import com.gupaoedu.vip.pattern.proxy.Person;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.jdkproxy.Girl;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.jdkproxy.JDKMeipo;
+import com.luo.steady.Person;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;
