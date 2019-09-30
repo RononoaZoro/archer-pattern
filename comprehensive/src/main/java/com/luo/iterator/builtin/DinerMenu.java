@@ -41,7 +41,7 @@ public class DinerMenu implements Menu {
 	}
  
 	public String toString() {
-		return "Diner Menu";
+		return "Diner MenuNew";
 	}
 	// other menu methods here
 }

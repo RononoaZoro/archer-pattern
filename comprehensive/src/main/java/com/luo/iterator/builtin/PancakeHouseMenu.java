@@ -33,7 +33,7 @@ public class PancakeHouseMenu implements Menu {
 	}
   
 	public String toString() {
-		return "Pancake House Menu";
+		return "Pancake House MenuNew";
 	}
 
 	// other menu methods here
