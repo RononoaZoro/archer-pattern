@@ -22,9 +22,7 @@ public class CompositeIteratorNew implements Iterator<MenuComponentNew> {
 
         Iterator<MenuComponentNew> iterator = stack.peek();
 
-        if (iterator.hasNext()) {
-            return true;
-        }
+        if (iterator.hasNext()) return true;
 
         stack.pop();
         return hasNext();
@@ -39,6 +37,7 @@ public class CompositeIteratorNew implements Iterator<MenuComponentNew> {
         MenuComponentNew component = iterator.next();
 
         if(component instanceof MenuNew) stack.push(component.createIterator());
+
         return component;
     }
 }
