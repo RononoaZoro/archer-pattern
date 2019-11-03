@@ -22,6 +22,10 @@
       <module>responsibility-chain</module>
       <module>comprehensive</module>
       <module>comprehensive-duck-application</module>
+      <module>visitor</module>
+    <module>flyweight</module>
+      <module>bridge</module>
+      <module>builder</module>
   </modules>
 
   <name>Maven</name>
