@@ -26,6 +26,7 @@
     <module>flyweight</module>
       <module>bridge</module>
       <module>builder</module>
+	  <module>mediator</module>
   </modules>
 
   <name>Maven</name>

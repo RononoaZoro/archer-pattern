@@ -2,6 +2,7 @@ package com.luo.Subject;
 
 import com.luo.core.Event;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.Method;
 
 /**
@@ -28,5 +29,10 @@ public class ObserverTest {
         }catch (Exception e){
             e.printStackTrace();
         }
+
+
+        Object[] objs = new Object[2];
+        objs[0] = "1";
+        objs[1] = new Integer(1);
     }
 }
