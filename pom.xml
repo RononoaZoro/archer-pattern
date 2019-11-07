@@ -28,6 +28,7 @@
       <module>builder</module>
 	  <module>mediator</module>
 	  <module>interpreter</module>
+	  <module>memento</module>
   </modules>
 
   <name>Maven</name>

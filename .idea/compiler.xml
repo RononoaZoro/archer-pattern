@@ -21,6 +21,7 @@
         <module name="proxy" />
         <module name="interpreter" />
         <module name="factory" />
+        <module name="memento" />
         <module name="bridge" />
         <module name="adapter" />
         <module name="template" />
