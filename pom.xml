@@ -27,6 +27,7 @@
       <module>bridge</module>
       <module>builder</module>
 	  <module>mediator</module>
+	  <module>interpreter</module>
   </modules>
 
   <name>Maven</name>

@@ -19,6 +19,7 @@
         <module name="responsibility-chain" />
         <module name="delegate" />
         <module name="proxy" />
+        <module name="interpreter" />
         <module name="factory" />
         <module name="bridge" />
         <module name="adapter" />
